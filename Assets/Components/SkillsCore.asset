@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db735cb8fe0b3c4e9738a7de346102e, type: 3}
+  m_Name: SkillsCore
+  m_EditorClassIdentifier: 
+  _points: {fileID: 11400000, guid: db98d6d0e51fcf04aa35a56bc3256cbb, type: 2}
+  _skillsTreeState: {fileID: 11400000, guid: 68c88601344b8ca4bb883690895e82ff, type: 2}
+  _skillsTree: {fileID: 11400000, guid: 76bdb3187dcfd4d489dfeacd92ada8a5, type: 2}

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 329c56fe096551d47a1e63f77a1f308b, type: 3}
+  m_Name: SkillsTree
+  m_EditorClassIdentifier: 
+  _skills:
+  - {fileID: 11400000, guid: d1c8958ca0e23c142a2232edf10027de, type: 2}
+  - {fileID: 11400000, guid: 6b47c3de5b4ae69439147d93c5613297, type: 2}
+  - {fileID: 11400000, guid: bdb748d23be9363478d9e710f67af0b6, type: 2}
+  - {fileID: 11400000, guid: cbc3bcfc162c4f643ba1fb85cf957a02, type: 2}
+  - {fileID: 11400000, guid: b3f214e2b90eb334d8360e2648274ef7, type: 2}
+  - {fileID: 11400000, guid: c1865069340daec489f308ca6c4efe30, type: 2}
+  - {fileID: 11400000, guid: 678d441b02f81474a887108ac6b9819b, type: 2}
+  - {fileID: 11400000, guid: 4b47726e42efc7149abda76573a05d90, type: 2}
+  - {fileID: 11400000, guid: ae550134f853add418fc1599343c2ae8, type: 2}
+  - {fileID: 11400000, guid: faf355fb4e7dc4f4e93ae9a90ede40e5, type: 2}
+  - {fileID: 11400000, guid: 935d2e8a5b386cb4fb588ec789e36b95, type: 2}
+  _connections:
+  - ItemA: {fileID: 11400000, guid: d1c8958ca0e23c142a2232edf10027de, type: 2}
+    ItemB: {fileID: 11400000, guid: 6b47c3de5b4ae69439147d93c5613297, type: 2}
+  - ItemA: {fileID: 11400000, guid: d1c8958ca0e23c142a2232edf10027de, type: 2}
+    ItemB: {fileID: 11400000, guid: bdb748d23be9363478d9e710f67af0b6, type: 2}
+  - ItemA: {fileID: 11400000, guid: d1c8958ca0e23c142a2232edf10027de, type: 2}
+    ItemB: {fileID: 11400000, guid: b3f214e2b90eb334d8360e2648274ef7, type: 2}
+  - ItemA: {fileID: 11400000, guid: d1c8958ca0e23c142a2232edf10027de, type: 2}
+    ItemB: {fileID: 11400000, guid: ae550134f853add418fc1599343c2ae8, type: 2}
+  - ItemA: {fileID: 11400000, guid: d1c8958ca0e23c142a2232edf10027de, type: 2}
+    ItemB: {fileID: 11400000, guid: faf355fb4e7dc4f4e93ae9a90ede40e5, type: 2}
+  - ItemA: {fileID: 11400000, guid: b3f214e2b90eb334d8360e2648274ef7, type: 2}
+    ItemB: {fileID: 11400000, guid: c1865069340daec489f308ca6c4efe30, type: 2}
+  - ItemA: {fileID: 11400000, guid: b3f214e2b90eb334d8360e2648274ef7, type: 2}
+    ItemB: {fileID: 11400000, guid: 678d441b02f81474a887108ac6b9819b, type: 2}
+  - ItemA: {fileID: 11400000, guid: c1865069340daec489f308ca6c4efe30, type: 2}
+    ItemB: {fileID: 11400000, guid: 4b47726e42efc7149abda76573a05d90, type: 2}
+  - ItemA: {fileID: 11400000, guid: 678d441b02f81474a887108ac6b9819b, type: 2}
+    ItemB: {fileID: 11400000, guid: 4b47726e42efc7149abda76573a05d90, type: 2}
+  - ItemA: {fileID: 11400000, guid: bdb748d23be9363478d9e710f67af0b6, type: 2}
+    ItemB: {fileID: 11400000, guid: cbc3bcfc162c4f643ba1fb85cf957a02, type: 2}
+  - ItemA: {fileID: 11400000, guid: ae550134f853add418fc1599343c2ae8, type: 2}
+    ItemB: {fileID: 11400000, guid: 935d2e8a5b386cb4fb588ec789e36b95, type: 2}
+  - ItemA: {fileID: 11400000, guid: faf355fb4e7dc4f4e93ae9a90ede40e5, type: 2}
+    ItemB: {fileID: 11400000, guid: 935d2e8a5b386cb4fb588ec789e36b95, type: 2}
+  <BaseSkill>k__BackingField: {fileID: 11400000, guid: d1c8958ca0e23c142a2232edf10027de, type: 2}
